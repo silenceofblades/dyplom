@@ -1,0 +1,134 @@
+
+@media screen and (max-width: 500px){
+.r4 h2{
+    font-size: x-large;
+}
+
+}
+
+
+@media screen and (max-width: 1100px){
+.r0 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    position: absolute;
+}
+    .r11 img{
+        width: 100%;
+  height: 100%;
+  object-fit: contain; /* Изображение полностью умещается в контейнере */
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.r2 h2{
+    font-size: large;
+}.r9 h2{
+    font-size: large;
+}
+.r4 h2{
+    margin-top: 1.5%;
+    font-size: large;
+}
+.r5{
+    margin-top: 5%;
+}   
+.inf1 img{
+    display: none;
+}
+.r7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Изображение полностью умещается в контейнере */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.r12{
+    height: 20%;
+    width: 100%;
+}
+.r13{
+    height: auto;
+}
+.r12 img{
+    margin-top: 10%;
+}
+.r14 img{
+    width: 90%;
+    height: 90%;
+    overflow: hidden;      /* Обрезает содержимое, выходящее за границы контейнера */
+    object-fit: contain; /* Изображение полностью умещается в контейнере */
+    position: absolute;
+
+}
+.r3 img{
+    width: 90%;
+    height: 90%;
+    overflow: hidden;      /* Обрезает содержимое, выходящее за границы контейнера */
+    object-fit: contain; /* Изображение полностью умещается в контейнере */
+    position: absolute;
+    
+}
+.r15 h2{
+margin-bottom: 30%;
+}
+.IMG{
+    height: 80%;
+    width: 80%;
+}
+.ff4{
+    width: 18%;
+    height: 90%;
+    margin-left: 0.5%;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;      /* Обрезает содержимое, выходящее за границы контейнера */
+    object-fit: contain; /* Изображение полностью умещается в контейнере */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.FF5{
+    height: min-content;
+}
+.img-filter {
+    width: auto; /* Измените процентное значение по вашему усмотрению */
+    height: 65%; /* Сохраняет пропорции изображения */
+  }
+  
+
+.but1{
+    position: relative;
+    display: block;
+    justify-content: center;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+.but1>button{
+    margin-left: 20PX;
+}
+
+.but2{
+    display: none;
+}
+.but3{
+    display: none;
+}
+.in1{
+    margin-top: 5%;
+}
+
+.inf2 h2{
+    margin-top: 5%;
+    font-size: larger;
+}
+.inf h2{
+    font-size: larger;
+}
+
+}

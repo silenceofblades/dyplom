@@ -1,0 +1,14 @@
+.button {
+    font-family: VogueSans;
+
+    background-color: #ce92b1;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  .button:hover {
+    background-color: #915d7f;
+  }

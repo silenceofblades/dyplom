@@ -1,0 +1,33 @@
+@media screen and (max-width: 1100px){
+ 
+    .content_custom{
+        height: max-content;
+    }
+    .c{
+        width: 35%;
+    }
+    .c1 h2{
+        font-size: x-large;
+    }
+    .slider-container3 {
+        height: 45%;
+        width: 65%;
+        margin-bottom: 1%;
+        position: relative;
+    }
+    .slider-container {
+        margin-top: 5%;
+        margin-left: 22.5%;
+        height: 55%;
+        width: 55%;
+        margin-bottom: 1%;
+        position: relative;
+    }
+    .slider-container4 {
+        margin-left: 20%;
+        height: 55%;
+        width: 60%;
+        margin-bottom: 1%;
+        position: relative;
+    }
+    }

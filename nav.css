@@ -1,0 +1,115 @@
+
+  .navigation {
+  font-family: VogueSans;
+  font-size: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #28292d;
+    color: #fff;
+    padding: 10px;
+  }
+  .log{
+    margin-top: 0.6%;
+  }
+  .left-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+  }
+  
+  .left-nav ul li {
+    margin-right: 20px;
+  }
+  
+  .left-nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .left-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .right-nav .login-button {
+    background-color: #ce92b1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .right-nav .login-button:hover {
+    background-color: #915d7f;
+  }
+
+  .login-button {
+    font-family: VogueSans;
+
+    background-color: #ce92b1;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .login-button:hover {
+    background-color: #915d7f;
+  }
+.long-block {
+    display: center;
+  }
+
+
+
+
+ 
+.left-nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #28292d; 
+  border: 1px solid #fff; 
+  border-radius: 0 0 5px 5px; 
+  padding: 0;
+}
+
+.left-nav ul ul li {
+  display: block;
+  color: #fff;
+}
+
+.left-nav ul li:hover > ul {
+  display: block;
+}
+
+.left-nav ul ul li:hover {
+  background-color: #3d3f43;
+}
+
+.left-nav ul ul li a {
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.left-nav ul ul li a:hover {
+  background-color: #3d3f43; 
+}
+
+
+
+
+.left-nav ul ul {
+  display: none;
+  position: absolute;
+  background-color: #28292d; 
+  border: 1px solid #fff; 
+  border-radius: 0 0 5px 5px; 
+  padding: 0;
+  z-index: 1; 
+}
+
+

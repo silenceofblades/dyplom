@@ -1,0 +1,72 @@
+@media screen and (max-width: 1100px){
+    .ff{
+        height: 25%;
+    }
+    .ff3{
+        position: relative;
+        justify-content: center;
+        display: block;
+    }    
+     
+        .ff4{
+        width: 19.3%;
+        height: 90%;
+        margin-left: 0.5%;
+    }
+    .img{
+        margin-left: 2%;
+    }
+    .but1>button{
+        margin-left: 15%;
+    }
+    .but1{
+        margin-left: 0;
+    }
+    .text{
+        margin-left: 5%;
+    }
+    .img img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;      /* Обрезает содержимое, выходящее за границы контейнера */
+        object-fit: contain; /* Изображение полностью умещается в контейнере */
+        position: absolute;
+        top: 0;
+        left: 0;
+    }.but1{
+        position: relative;
+        display: block;
+        justify-content: center;
+        margin-top: 5%;
+    }
+    .but2 {
+        float:left;
+        margin-top: 16%;
+        margin-left: -8%;
+}
+    .but3{
+        display: none;
+    }
+    
+    .nn1 h2{
+        font-size: large;
+    }
+    .nb img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;      /* Обрезает содержимое, выходящее за границы контейнера */
+        object-fit: contain; /* Изображение полностью умещается в контейнере */
+        position: absolute;
+    }
+    .k0 h1{
+        margin-top: 5%;
+    }
+    .k1{
+        margin-top: 10%;
+    }
+    .img-filter {
+        width: auto;
+        height: 65%;
+    }
+    
+    }

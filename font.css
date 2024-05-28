@@ -1,0 +1,63 @@
+@font-face { 
+    font-family: "VogueSans"; 
+    
+    src: url("pict/font/VogueSans.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
+  @font-face { 
+    font-family: "Simplex"; 
+    
+    src: url("pict/font/Simplex.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  }   
+p{
+    font-family: VogueSans;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ce92b1; /* Произвольный цвет */
+}
+h4{
+    font-family: Simplex;
+    font-size: 25px;
+margin-top: 2px;
+margin-left: 0px;
+    color: #ce92b1;
+}
+h1{
+    font-family: Simplex;
+    font-size: 25px;
+margin-top: 2px;
+margin-left: 30px;
+    color: #ce92b1;
+}
+h2{
+    font-family: Simplex;
+    font-size: 88%;
+margin-top: 2px;
+margin-left: 30px;
+    color: #ce92b1;
+}
+h3{
+    font-family: Simplex;
+    font-size: 80%;
+margin-top: 4%;
+margin-left: 0;
+    color: #ce92b1;
+}
+
+h4{
+    font-family: Simplex;
+    font-size: 80%;
+margin-top: 2px;
+margin-left: none;
+    color: #28292d;
+}
+h5{
+    font-family: Simplex;
+    font-size: 80%;
+margin-top: 5px;
+margin-left: none;
+    color: #ce92b1;
+}

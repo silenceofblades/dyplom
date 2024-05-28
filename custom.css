@@ -1,0 +1,553 @@
+.content_custom{
+    width:100%;
+    height:1100px;
+    background: linear-gradient(#2b0000,#000000);
+    float:left;
+    background-repeat: no-repeat;   
+    background-size: cover;
+}
+
+.logc>img{
+margin-top: 4%;
+}
+
+
+
+#container_custom{
+    background: red;
+    width:100%;
+    height:900px;}
+    
+
+.cust{
+background: none;
+    height: 65%;
+    width: 100%;  
+    justify-content: center;
+    position: relative;
+    display: flex;
+}
+
+.cust1{
+    height: 100%;
+    width: 40%;
+    background: none;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+     justify-content: center;
+     flex-direction: column;    
+}
+.c{
+    height: 100%;
+    width: 30%;
+    background-image: linear-gradient(to bottom right, #4f2020, #2b0000);
+    border-radius: 20px;
+}
+.c1{
+    height: 65%;
+    width: 92%;
+    background: none;
+    margin-top: 1%;
+    margin-left: 0%;
+}
+.c2{
+    height: 35%;
+    width: 92%;
+    background: none;
+    margin-top: 1%;
+    margin-left: 4%;
+}
+
+.slider{
+    border-radius: 20px;
+    background:white;
+}
+.slider-container { 
+    margin-left: 25%;
+    height: 45%;
+    width: 45%;
+    margin-bottom: 1%; /* Отступ между контейнерами */
+    position: relative;
+
+  }
+  
+
+
+  .slider {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 200px; /* Высота слайдера */
+    overflow: hidden;
+      display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+
+
+  .slider img{
+    width: 100%;
+    height: 100%; /* Устанавливаем высоту картинки на 100% */
+    object-fit: cover; /* Заполняем область с сохранением пропорций */
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+ }  
+  
+  
+  .slides {    
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+    background-color: transparent;
+    display: flex;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+  .slides img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+  }
+
+ .slides:hover {
+    transform: scale(1.1); 
+  } 
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-1, .prev-2, .prev-3 {
+    left: 0;
+  }
+  
+  .next-1, .next-2, .next-3 {
+    right: 0;
+  }
+  
+
+
+  .slider1 {
+    border-radius: 20px;
+    background: white;
+}
+
+.slider-container1 {
+    margin-left: 25%;
+    height: 45%;
+    width: 45%;
+    margin-bottom: 1%; /* Отступ между контейнерами */
+    position: relative;
+}
+
+.slider1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 200px; /* Высота слайдера */
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slider1 img {
+    width: 100%;
+    height: 100%; /* Устанавливаем высоту картинки на 100% */
+    object-fit: contain; /* Подгоняем изображение по размерам, сохраняя пропорции */
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+}
+
+.slides1 {
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+    background-color: transparent;
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slides1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.slides1:hover {
+    transform: scale(1.1);
+}
+
+.button1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev-1, .prev-2, .prev-3 {
+    left: 0;
+}
+
+.next-1, .next-2, .next-3 {
+    right: 0;
+}
+
+
+.slider2 {
+    border-radius: 20px;
+    background: white;
+}
+
+
+.slider2 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 200px; /* Высота слайдера */
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slider2 img {
+    width: 100%;
+    height: 100%; /* Устанавливаем высоту картинки на 100% */
+    object-fit: contain; /* Подгоняем изображение по размерам, сохраняя пропорции */
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+}
+
+.slides2 {
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+    background-color: transparent;
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slides2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.slides2:hover {
+    transform: scale(1.1);
+}
+
+
+
+.prev-1, .prev-2, .prev-3 {
+    left: 0;
+}
+
+.next-1, .next-2, .next-3 {
+    right: 0;
+}
+
+
+.slider-container3 {
+    margin-left: 20%;
+    height: 40%;
+    width: 60%;
+    margin-bottom: 1%; /* Отступ между контейнерами */
+    position: relative;
+}
+
+
+.slider3 {
+    border-radius: 20px;
+    background: white;
+}
+
+
+.slider3 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 200PX; /* Высота слайдера */
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slider3 img {
+    width: 100%;
+    height: 100%; /* Устанавливаем высоту картинки на 100% */
+    object-fit: contain; /* Подгоняем изображение по размерам, сохраняя пропорции */
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+}
+
+.slides3 {
+    margin-top: 10px;
+    position: relative;
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+    background-color: transparent;
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slides3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.slides3:hover {
+    transform: scale(1.1);
+}
+
+
+
+.prev-1, .prev-2, .prev-3 {
+    left: 0;
+}
+
+.next-1, .next-2, .next-3 {
+    right: 0;
+}
+
+
+
+
+
+
+.slider2 {
+    position: relative; /* Назначаем позиционирование */
+  }
+
+
+
+
+  .text-block1 {
+    transform: translateY(230%);
+    background-image: linear-gradient(to bottom right, #7e3535, #2b0000);
+    border-radius: 20px;
+    position: absolute;
+    transition: opacity 0.5s ease;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+
+
+    .text-block {
+        transform: translateY(-100%);
+        background-image: linear-gradient(to bottom right, #7e3535, #2b0000);
+        border-radius: 20px;
+        position: absolute;
+        transition: opacity 0.5s ease;
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        text-align: center; /* Выравнивание текста по центру */
+    }
+    
+    .slides3:hover .text-block1 {
+        opacity: 1;
+    }
+    
+
+   
+    .slides:hover .text-block {
+        opacity: 1;
+    }
+    
+    .slides1:hover .text-block {
+        opacity: 1;
+    }
+    
+    .slides2:hover .text-block {
+        opacity: 1;
+    }
+     
+    .slides4:hover .text-block {
+        opacity: 1;
+    }
+    .slides5:hover .text-block {
+        opacity: 1;
+    }
+     
+
+  
+.slider4{
+    border-radius: 20px;
+    background:white;
+}
+.slider-container4 { 
+    margin-left: 25%;
+    height: 45%;
+    width: 60%;
+    margin-bottom: 1%; /* Отступ между контейнерами */
+    position: relative;
+
+  }
+  
+
+
+  .slider4 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 350px; /* Высота слайдера */
+    overflow: hidden;
+      display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  }
+
+
+  .slider4 img{
+    width: 100%;
+    height: 100%; /* Устанавливаем высоту картинки на 100% */
+    object-fit: cover; /* Заполняем область с сохранением пропорций */
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+ }  
+  
+  
+  .slides4 {    
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+    background-color: transparent;
+    display: flex;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+  .slides4 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+  }
+
+ .slides4:hover {
+    transform: scale(1.1); 
+  } 
+  
+  button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev-1, .prev-2, .prev-3 {
+    left: 0;
+  }
+  
+  .next-1, .next-2, .next-3 {
+    right: 0;
+  }
+  
+  
+
+  .slider-container5 {
+    margin-left: none;
+    height: 40%;
+    width: 100%;
+    margin-bottom: 1%; /* Отступ между контейнерами */
+    position: relative;
+}
+
+
+.slider5 {
+    border-radius: 20px;
+    background: white;
+}
+
+
+.slider5 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 200PX; /* Высота слайдера */
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slider5 img {
+    width: 100%;
+    height: 100%; /* Устанавливаем высоту картинки на 100% */
+    object-fit: contain; /* Подгоняем изображение по размерам, сохраняя пропорции */
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+}
+
+.slides5 {
+    margin-top: 10px;
+    position: relative;
+    justify-content: center;
+    position: relative; /* Выравнивание по центру */
+    display: flex;
+    background-color: transparent;
+    display: flex;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slides5 img {
+    width: 100%;
+    height: 100%;
+}
+
+.slides5:hover {
+    transform: scale(1.1);
+}
+
+
+
+.prev-1, .prev-2, .prev-3 {
+    left: 0;
+}
+
+.next-1, .next-2, .next-3 {
+    right: 0;
+}
+
+#clear{
+    clear:both;}
+ #footer1{
+  margin-top: 14%;
+  text-align: center;
+  background: #1500008e;
+  width:100%;
+  height: 15%;
+ }
